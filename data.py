@@ -1,0 +1,1 @@
+MUTE_ROLE = "muted"
