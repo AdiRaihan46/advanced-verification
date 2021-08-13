@@ -2,7 +2,11 @@
 Nyssa | Antinuke | Discord.py
 
 Welcome to my first Discord.py Project
-![alt text](https://static1.cbrimages.com/wordpress/wp-content/uploads/articles/arrow-producers-call-nyssa-al-ghul-one-of-the-best-characters-in.jpg)
+
+-
+![Screenshot](screenshot.png)
+-
+
 
 - Nyssa is a Anti Nuke / Raid bot which will protect your server from raiders or NFSW Content!
 - You can also Setup a verfiy system!
