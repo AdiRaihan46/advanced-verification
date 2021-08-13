@@ -4,7 +4,7 @@ Nyssa | Antinuke | Discord.py
 Welcome to my first Discord.py Project
 
 -
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot.png)
 -
 
 
